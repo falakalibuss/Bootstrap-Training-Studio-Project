@@ -1,0 +1,78 @@
+.navbar .container-fluid a span {
+  color: rgba(155, 23, 23, 0.849);
+  font-weight: bold;
+}
+
+body::before {
+  display: block;
+  content: "";
+  height: 72px;
+}
+.background {
+  position: relative;
+  background: radial-gradient(
+    circle at 50% 50%,
+    rgb(51, 10, 10),
+    rgb(5, 5, 21)
+  );
+  display: flex;
+  flex-direction: column;
+}
+.bg {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.2;
+}
+.container-program {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 15%;
+}
+.container-prog {
+  margin-top: 30px;
+  text-align: center;
+  justify-content: center;
+  gap: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.container-prog h2 {
+  font-weight: bold;
+}
+.container-prog p {
+  font-size: 18px;
+}
+.options {
+  width: 40%;
+  gap: 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+}
+.option-info h5 {
+  font-size: 18px;
+  font-weight: bold;
+}
+.option-info p {
+  font-size: 12px;
+}
+.option-info a {
+  text-decoration: none;
+  padding: 10px;
+  background-color: rgba(189, 12, 12, 0.856);
+  color: black;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 20px;
+}
+.container-showcase .showcase img{
+    margin-right: 40px; !important
+}
